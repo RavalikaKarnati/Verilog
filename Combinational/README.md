@@ -17,3 +17,5 @@ MUTLI-ADDER:
 <img width="1025" height="616" alt="image" src="https://github.com/user-attachments/assets/b1bdbf6f-5fb3-40ff-9890-71d0539f9d7a" />
 
 2X1 MUX:
+<img width="471" height="345" alt="image" src="https://github.com/user-attachments/assets/7d695389-9bfc-4901-8162-237c84f2bdaf" />
+
