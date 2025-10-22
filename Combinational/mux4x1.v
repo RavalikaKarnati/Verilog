@@ -20,11 +20,39 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module mux4x1(
+module mux4X1(
     input [3:0] a, [1:0] s,
-    output f
+    output reg f
     );
     
+/* representaed using 2x1 mux
+   always @ (a,s)
+   begin
+      if(s==2'b00)
+        f = a[0];
+      else if(s==2'b01)
+        f = a[1];
+      else if(s==2'b10)
+        f = a[2];
+      else if(s==2'b11)
+        f = a[3];
+      else
+        f = 'bx;      
+   end
+*/   
+   always @(a,s)
+   begin
+     case (s)
+       2'b00 : f = a[0];
+       2'b01 : f = a[1];
+       2'b10 : f = a[2];
+       2'b11 : f = a[3];
+       default : f = 'bx;    
+     endcase
+   end
+   
+   // gate level modelling
+ /*  
     wire g1, g2;
     mux2x1 mux1 (
          .a(a[0]),
@@ -45,4 +73,5 @@ module mux4x1(
          .sel(s[0]),
          .f(f)
     );
+    */
 endmodule
