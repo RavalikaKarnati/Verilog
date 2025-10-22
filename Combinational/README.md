@@ -21,10 +21,12 @@ MUTLI-ADDER:
 <img width="471" height="345" alt="image" src="https://github.com/user-attachments/assets/7d695389-9bfc-4901-8162-237c84f2bdaf" />
 
 4x1 MUX:
-      Representation with if-else statements. 
+Representation with if-else statements. 
       <img width="1173" height="322" alt="image" src="https://github.com/user-attachments/assets/4b7b2878-f0e3-4dbd-b012-7404808fd255" />
 
-      Representation with case statement
-      <img width="1043" height="552" alt="image" src="https://github.com/user-attachments/assets/c8383a54-533f-4868-98bb-33123a2af082" />
+Representation with case statement
+<img width="1043" height="552" alt="image" src="https://github.com/user-attachments/assets/1cb4586a-1ff6-474e-91fe-0b31e8220cda" />
+
+
 
 
