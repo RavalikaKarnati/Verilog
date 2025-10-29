@@ -23,7 +23,8 @@
 module mux2x1_nbit
 #(parameter N = 4)
 (
-    input [N-1:0] a, b, sel,
+    input [N-1:0] a, b,
+    input sel,
     output [N-1:0] f // when using always block, output f should be declared as reg - this is not a register or memory storage variable
     );
     
