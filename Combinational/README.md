@@ -27,8 +27,11 @@ Representation with if-else statements.
 Representation with case statement
 <img width="1043" height="552" alt="image" src="https://github.com/user-attachments/assets/1cb4586a-1ff6-474e-91fe-0b31e8220cda" />
 
+mux_generic_1bit:
+<img width="1255" height="272" alt="image" src="https://github.com/user-attachments/assets/3d0e419c-f06f-4e3f-93f7-97b089ee7304" />
 
-mux_generic:
+
+mux_generic_nbit:
 INPUT_WIDTH: 4
 NUM_OF_INPUTS: 5
 <img width="1215" height="287" alt="image" src="https://github.com/user-attachments/assets/b8a3e91d-2738-4564-8813-be30c8ff3baf" />
