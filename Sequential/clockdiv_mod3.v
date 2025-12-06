@@ -1,6 +1,6 @@
 // Code your design here
 module modN_ctr
-  # (parameter N = 3,
+  # (parameter N = 3,   // N = input frequency / output frequency, div/2, div/3, etc
      parameter WIDTH = 4)
 
   ( input   clk,
