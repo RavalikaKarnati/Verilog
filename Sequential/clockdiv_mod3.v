@@ -34,7 +34,7 @@ module tb;
   reg rstn;
   wire [WIDTH-1:0] out;
 
-  modN_ctr u0  ( 	.clk(clk),
+  modN_ctr #(2) u0  ( 	.clk(clk),   // #(.N(N)
                 	.rstn(rstn),
                 	.clk_div(clk_div));
 
