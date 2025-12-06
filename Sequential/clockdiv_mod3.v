@@ -8,7 +8,7 @@ module modN_ctr
     output reg clk_div
    	);
 
-  reg [1:0] count;
+  reg [$clog2(N)-1:0] count;
   always @ (posedge clk) begin
     if (!rstn) begin
       count <= 0;
