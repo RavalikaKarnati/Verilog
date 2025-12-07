@@ -7,4 +7,6 @@ module b2g_converter #(parameter WIDTH=4) (input [WIDTH-1:0] binary, output [WID
   endgenerate
   
   assign gray[WIDTH-1] = binary[WIDTH-1];
+
+  // assign gray = (binary >> 1) ^ binary;
 endmodule
