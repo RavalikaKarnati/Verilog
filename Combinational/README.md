@@ -1,8 +1,15 @@
-HALF ADDER:
+HALF ADDER:  
 <img width="1023" height="467" alt="image" src="https://github.com/user-attachments/assets/37865892-e413-430c-bb74-26ffb7355cf3" />
 
-FULL ADDER:
+FULL ADDER:  
 <img width="1106" height="352" alt="image" src="https://github.com/user-attachments/assets/08f1630b-112e-4c1c-9210-b5fa50df0963" />
+
+HALD SUBTRACTOR:  
+<img width="936" height="428" alt="image" src="https://github.com/user-attachments/assets/5fac188a-bcc7-4b74-b862-6513189de35e" />
+
+FULL SUBTRACTOR:  
+<img width="1012" height="401" alt="image" src="https://github.com/user-attachments/assets/9ccf61ee-d4a1-4ac8-bd70-bf42172d526a" />
+
 
 RIPPLE CARRY ADDER 4bit:
 <img width="1000" height="641" alt="image" src="https://github.com/user-attachments/assets/6736abeb-c948-4ffb-a9ee-d5ede0eca6d2" />
