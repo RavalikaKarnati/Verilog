@@ -21,5 +21,6 @@ half_adder HA1(
 );
 
 assign c_out = c0 | c1;
-
+//  assign s = x ^ y ^ c_in;
+//  assign c_out = (x & y) | (y & c_in) | (x & c_in);
 endmodule
