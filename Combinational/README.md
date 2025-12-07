@@ -23,6 +23,10 @@ ADDER_SUBTRACTOR:
 MUTLI-ADDER:
 <img width="1025" height="616" alt="image" src="https://github.com/user-attachments/assets/b1bdbf6f-5fb3-40ff-9890-71d0539f9d7a" />
 
+CARRY LOOKAHEAD ADDER:
+<img width="860" height="535" alt="image" src="https://github.com/user-attachments/assets/b84fd3c3-1c53-4b41-bca8-50b269626ae1" />
+
+
 2X1 MUX:
 
 <img width="471" height="345" alt="image" src="https://github.com/user-attachments/assets/7d695389-9bfc-4901-8162-237c84f2bdaf" />
