@@ -64,7 +64,7 @@ module mux_Nx1_nbit #(
 //        "+:" means “go upward from start_index to start_index+width-1”
 //        "-:" means "go downward from start_index to start_index-width+1"
 
-          f = a[i*INPUT_WIDTH +: INPUT_WIDTH]; 
+         f[i] = a[i*INPUT_WIDTH +: INPUT_WIDTH]; 
     end   
   end  
 endmodule
