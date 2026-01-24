@@ -7,6 +7,8 @@ module full_adder(
 
 wire s0, c0, c1;
 // instantiated from Half_Adder.v
+// full adder using half adder
+  
 half_adder HA0 (
     .x(x),
     .y(y),
@@ -20,7 +22,8 @@ half_adder HA1(
     .c(c1)  
 );
 
-assign c_out = c0 | c1;
+assign c_out = c0 ^ c1;
+// behavioral modelling of full-adder
 //  assign s = x ^ y ^ c_in;
 //  assign c_out = (x & y) | (y & c_in) | (x & c_in);
 endmodule
