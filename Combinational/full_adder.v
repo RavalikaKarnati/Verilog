@@ -23,9 +23,11 @@ half_adder HA1(
 );
 
 assign c_out = c0 | c1;
-// behavioral modelling of full-adder
   
-  // boolean expressions
-//  assign s = x ^ y ^ c_in;
-  //  assign c_out = (x & y) | ( c_in & (x ^ y));
+// behavioral modelling of full-adder
+  assign { c_out, s} = x + y + c_in;
+  
+// boolean expressions
+  assign s = x ^ y ^ c_in;
+  assign c_out = (x & y) | ( c_in & (x ^ y));
 endmodule
