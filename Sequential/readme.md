@@ -1,3 +1,8 @@
+**Async Reset vs Sync Reset**:
+
+
+
+
 **Level Senstive latch**:  
 
 always @( clock or D)  
