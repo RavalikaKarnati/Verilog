@@ -38,17 +38,6 @@ end
     end   
 <img width="1130" height="528" alt="image" src="https://github.com/user-attachments/assets/796b1f03-3465-4668-bd24-342a5f167131" />
 
-
-
-
-**Async Reset vs Sync Reset**:
-
-In the synchronous reset module, the input reset_n is synchronized with the clock signal using an edge-triggered flip-flop. The reset condition is checked on the rising edge of the clock, and if reset_n is low, the data is reset to 0. Otherwise, data is updated based on input ports.   
-
-In the asynchronous reset module, the input reset_n is checked on both rising and falling edges of the clock, and if reset_n is low, the data is reset to 0 regardless of the current clock state.  
-
-<img width="441" height="567" alt="image" src="https://github.com/user-attachments/assets/96680950-b792-44c4-8e27-80becebcf6c1" />
-
 always@(posedge clk)   
 begin  
 if(~reset_n)  
@@ -60,6 +49,18 @@ q_out <= d_in;
 end  
  
 <img width="1126" height="523" alt="image" src="https://github.com/user-attachments/assets/6007601a-d180-4a4a-8f45-993ece951f8f" />
+
+
+
+**Async Reset vs Sync Reset**:
+
+In the synchronous reset module, the input reset_n is synchronized with the clock signal using an edge-triggered flip-flop. The reset condition is checked on the rising edge of the clock, and if reset_n is low, the data is reset to 0. Otherwise, data is updated based on input ports.   
+
+In the asynchronous reset module, the input reset_n is checked on both rising and falling edges of the clock, and if reset_n is low, the data is reset to 0 regardless of the current clock state.  
+
+<img width="441" height="567" alt="image" src="https://github.com/user-attachments/assets/96680950-b792-44c4-8e27-80becebcf6c1" />
+
+
 
 
 counter:  
