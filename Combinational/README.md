@@ -2,6 +2,8 @@ HALF ADDER:
 <img width="1023" height="467" alt="image" src="https://github.com/user-attachments/assets/37865892-e413-430c-bb74-26ffb7355cf3" />
 
 FULL ADDER:  
+<img width="1148" height="467" alt="image" src="https://github.com/user-attachments/assets/8fc57c0c-2020-452c-b1a6-bdbc3e4ba454" />
+
 <img width="1106" height="352" alt="image" src="https://github.com/user-attachments/assets/08f1630b-112e-4c1c-9210-b5fa50df0963" />
 
 HALD SUBTRACTOR:  
