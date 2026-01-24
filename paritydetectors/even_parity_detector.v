@@ -1,4 +1,10 @@
-module  even_parity_detector  ( 
+//Odd 1s : Assign output as logical 1
+//Even 1s : Assign output as logical zero
+
+// odd parity =  ^ 1101 = 1^1^0^1 = 1
+// even parity = ^1100 = 1^1^0^0 = 0
+
+module  even_odd_parity_detector  ( 
 input [7:0]  data_in,  
 output parity_out
 );      
