@@ -1,3 +1,5 @@
+
+// tb to generate 60% duty cycle clock
 `define CLK_PERIOD 10ns
 module clk_gen; 
   realtime on_t = `CLK_PERIOD * 0.6; 
