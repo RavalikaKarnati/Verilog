@@ -1,6 +1,8 @@
 **Async Reset vs Sync Reset**:
 
+In the synchronous reset module, the input reset_n is synchronized with the clock signal using an edge-triggered flip-flop. The reset condition is checked on the rising edge of the clock, and if reset_n is low, the data is reset to 0. Otherwise, data is updated based on input ports.   
 
+In the asynchronous reset module, the input reset_n is checked on both rising and falling edges of the clock, and if reset_n is low, the data is reset to 0 regardless of the current clock state.   
 
 
 **Level Senstive latch**:  
