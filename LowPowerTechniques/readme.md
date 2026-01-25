@@ -1,5 +1,7 @@
 **Synthesis Area, Power, Timing Report**:  
 
+**LFSR instead of CounterS**
+Even when debounce times are fixed, LFSRs are used because they provide deterministic delays with far less area and power   than binary counters. Each fault signal can map to a unique LFSR pattern to achieve its required debounce time. LFSRs also   de‑correlate switching across multiple channels, reducing noise and avoiding simultaneous toggling that binary counters   would create  
 
 **CLOCK GATING:**  
 • The clock/power gating strategy should be defined/decided during the initial phase of design. This will allow designers to make appropriate decisions in terms of power, area and performance budget.  
