@@ -1,3 +1,5 @@
+<img width="761" height="757" alt="image" src="https://github.com/user-attachments/assets/bf39c1d9-de51-4113-9b6c-c26db038d887" />
+
 **Synthesis Area, Power, Timing Report**:  
 
 **LFSR instead of CounterS:**  
