@@ -3,7 +3,7 @@ module clk_60_duty #(
 )(
   input  logic clk,      // input clock
   input  logic rst_n,    // active-low reset
-  output logic clk_out   // 60% duty cycle clock
+  output logic clk_out   // 60% duty cycle clock // input duty_cycle;
 );
 
   // Counter width based on N
@@ -25,7 +25,7 @@ module clk_60_duty #(
     if (!rst_n)
       clk_out <= 1'b0;
     else begin
-      if (count < 3)
+      if (count < 3)   // count < duty_cycle
         clk_out <= 1'b1;  // HIGH when count=0,1,2; LOW when count=3,4
       else
         clk_out <= 1'b0;
