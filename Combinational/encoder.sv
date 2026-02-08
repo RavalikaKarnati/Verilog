@@ -1,3 +1,4 @@
+// https://github.com/ARC-Lab-UF/sv-tutorial/blob/main/combinational/priority_encoder_4in.sv
 
 module priority_encoder #(
     parameter int NUM_INPUTS,
