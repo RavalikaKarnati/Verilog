@@ -1,3 +1,4 @@
+//Parity detectors are used in many of DSP applications and an integral module for encryption engines.
 //Odd 1s : Assign output as logical 1
 //Even 1s : Assign output as logical zero
 
