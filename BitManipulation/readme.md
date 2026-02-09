@@ -4,7 +4,7 @@ Left Shift (<<): Moves bits to the left and fills in with 0.
 Right Shift (>>): Moves bits to the right and fills in based on the sign of the number.  
 5 >> 2 =1  
 Zero Fill Right Shift (>>>): Shifts bits right, filling in zeros.  
--5 >>> 2   = 1073741823
+-5 >>> 2   = 1073741823    
 ########################################################################################
 // swap with blocking    
         x = x ^ y;     
