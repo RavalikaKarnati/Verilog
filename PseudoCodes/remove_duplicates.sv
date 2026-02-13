@@ -4,11 +4,11 @@ module remove_duplicates #(
 )(
     input  logic [WIDTH-1:0] arr [N],
     output logic [WIDTH-1:0] unique_arr [N],
-    output logic              is_unique [N]
+    output logic [WIDTH-1:0] duplicates_arr [N],
 );
 
     integer i, j;
-
+    reg [$clog2(WIDTH)-1:0] count;
     always_comb begin
         for (i = 0; i < N; i++) begin
             count = 1'b0;
@@ -21,7 +21,7 @@ module remove_duplicates #(
 
             // pass through only if unique
           unique_arr[i] = (count == 1'b0) ? arr[i] : '0;
-          duplicates[i] = (count >= 1'b1) ? arr[i] : '0;
+          duplicates_arr[i] = (count >= 1'b1) ? arr[i] : '0;
         end
     end
 
